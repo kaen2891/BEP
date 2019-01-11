@@ -1,0 +1,8 @@
+
+*.db
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.VC.db
+*.suo
+*.opendb
