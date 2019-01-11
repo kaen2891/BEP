@@ -6,3 +6,5 @@
 *.VC.db
 *.suo
 *.opendb
+*.vs
+*.VC
