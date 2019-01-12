@@ -1,4 +1,4 @@
-BEP: Basic Education Programming for Image Processing
+Basic Education Programming for Image Processing
 
 * 1. RGB
 * 2. Histogram, Binarization, Thresholding
@@ -7,6 +7,6 @@ BEP: Basic Education Programming for Image Processing
 *
 *
 *
-*					by June-Woo Kim
-*					Author kaen2891 (kaen2891@gmail.com)
-*						2019.01.12
+					by June-Woo Kim
+					Author kaen2891 (kaen2891@gmail.com)
+						2019.01.12

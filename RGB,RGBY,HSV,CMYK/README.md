@@ -7,7 +7,6 @@
 *	img2CMYK: get image and calculate equation to convert RGB to CMYK
 *	pointEye: draw circle and line for make point
 *
-*					by June-Woo Kim
 					Author kaen2891 (kaen2891@gmail.com)
 *						2019.01.12
 */
