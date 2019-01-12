@@ -11,10 +11,21 @@ int main()
 	}
 
 	Mat Gray = img2Gray(src);
-	Mat_return returnImg = img2pdfcdf(Gray);
+	Mat_return returnpdfcdf = img2pdfcdf(Gray);
 	
-	imshow("pdf", returnImg.a);
-	imshow("cdf", returnImg.b);
+	int slide_index = 50;
+	Mat_return returnSliding = sliding(Gray, slide_index);
+
+	Mat_return returnStretching = stretching(Gray);
+		
+	imshow("pdf", returnpdfcdf.a);
+	imshow("cdf", returnpdfcdf.b);
+	imshow("50sliding img", returnSliding.a);
+	imshow("50sliding pdf", returnSliding.b);
+	imshow("50sliding cdf", returnSliding.c);
+	imshow("stretching image", returnStretching.a);
+	imshow("stretching pdf", returnStretching.b);
+	imshow("stretching cdf", returnStretching.c);
 	waitKey(0);
 
 	return 0;
