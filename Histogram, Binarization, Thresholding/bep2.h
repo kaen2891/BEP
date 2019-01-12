@@ -7,6 +7,13 @@
 using namespace std;
 using namespace cv;
 
+typedef struct Mat_value
+{
+	Mat a;
+	Mat b;
+}Mat_return;
+
 
 Mat img2Gray(Mat src);
-Mat img2pdfcdf(Mat gray);
+Mat_return img2pdfcdf(Mat gray);
+

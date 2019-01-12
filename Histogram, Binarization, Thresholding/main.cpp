@@ -11,7 +11,11 @@ int main()
 	}
 
 	Mat Gray = img2Gray(src);
-
+	Mat_return returnImg = img2pdfcdf(Gray);
+	
+	imshow("pdf", returnImg.a);
+	imshow("cdf", returnImg.b);
+	waitKey(0);
 
 	return 0;
 }
