@@ -54,3 +54,5 @@ BEP2/\.vs/BEP2/v14/\.suo
 RGB,RGBY,HSV,CMYK/\.vs/RGB,RGBY,HSV,CMYK/v14/\.suo
 
 *.log
+
+Histogram, Binarization, Thresholding/\.vs/
