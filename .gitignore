@@ -50,3 +50,7 @@ BEP1/\.vs/BEP1/v14/\.suo
 BEP2/\.vs/BEP2/v14/\.suo
 
 \.vs/BEP/v14/\.suo
+
+RGB,RGBY,HSV,CMYK/\.vs/RGB,RGBY,HSV,CMYK/v14/\.suo
+
+*.log
