@@ -56,3 +56,9 @@ RGB,RGBY,HSV,CMYK/\.vs/RGB,RGBY,HSV,CMYK/v14/\.suo
 *.log
 
 Histogram, Binarization, Thresholding/\.vs/
+
+Image Morphology/\.vs/Image Morphology/v14/\.suo
+
+Padding, Mask, Filtering, Edge Detection/\.vs/Padding, Mask, Filtering, Edge Detection/v14/\.suo
+
+Image Morphology, Geometry/\.vs/Image Morphology, Geometry/v14/\.suo
