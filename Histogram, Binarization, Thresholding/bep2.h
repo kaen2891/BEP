@@ -19,4 +19,5 @@ Mat img2Gray(Mat src);
 Mat_return img2pdfcdf(Mat gray);
 Mat_return sliding(Mat gray, int sliding_index);
 Mat_return stretching(Mat gray);
+Mat_return shrinking(Mat gray, int min_shrink, int max_shrink);
 
